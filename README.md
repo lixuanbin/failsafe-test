@@ -13,5 +13,5 @@ mvn -DexcludedGroups="com.vipshop.osp.integration.ITInSuite" failsafe:integratio
 ```
 ## install:
 ```bash
-mvn install
+mvn install -Dmaven.test.skip=true
 ```
