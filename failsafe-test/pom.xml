@@ -84,11 +84,13 @@
 						</execution>
 					</executions>
 					<runOrder>alphabetical</runOrder>
-					<!-- <excludes> <exclude>com.vip.osp.suite/*.java</exclude> </excludes> -->
 					<includes>
 						<include>**/*IT*</include>
 						<!-- <include>**/*IT.java</include> -->
 					</includes>
+					<excludes>
+						<exclude>**/*Test*</exclude>
+					</excludes>
 				</configuration>
 			</plugin>
 
