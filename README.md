@@ -15,3 +15,8 @@ mvn -DexcludedGroups="com.vipshop.osp.integration.ITInSuite" failsafe:integratio
 ```bash
 mvn install -Dmaven.test.skip=true
 ```
+## reference:
+https://semaphoreci.com/community/tutorials/how-to-split-junit-tests-in-a-continuous-integration-environment
+https://github.com/junit-team/junit4/wiki/categories
+http://maven.apache.org/components/surefire/maven-failsafe-plugin/examples/inclusion-exclusion.html
+https://stackoverflow.com/questions/11762801/run-junit-suite-using-maven-command
