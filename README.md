@@ -9,7 +9,11 @@ mvn failsafe:integration-test -Dit.test=ITSuite failsafe:verify
 ```
 ## run other integration tests:
 ```bash
-mvn -DexcludedGroups="com.vipshop.osp.integration.ITInSuite" failsafe:integration-test failsafe:verify
+mvn -DexcludedGroups="co.speedar.integration.ITInSuite,co.speedar.integration.OtherCategory" failsafe:integration-test failsafe:verify
+```
+## run other category tests:
+```bash
+mvn -DexcludedGroups="co.speedar.integration.ITInSuite,co.speedar.integration.ITNotInSuite" failsafe:integration-test failsafe:verify
 ```
 ## install:
 ```bash
