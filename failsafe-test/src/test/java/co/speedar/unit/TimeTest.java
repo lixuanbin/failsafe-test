@@ -1,4 +1,4 @@
-package com.vipshop.osp.unit;
+package co.speedar.unit;
 
 public class TimeTest {
 	private static final int ONE_MILLION = 1000000;

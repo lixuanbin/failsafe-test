@@ -1,4 +1,4 @@
-package com.vipshop.osp.integration;
+package co.speedar.integration;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;

@@ -1,4 +1,4 @@
-package com.vipshop.osp.unit;
+package co.speedar.unit;
 
 import org.junit.Test;
 
